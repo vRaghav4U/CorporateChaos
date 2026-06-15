@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corporate Chaos: Interactive Episode Game</title>
+  <meta name="description" content="Corporate Chaos — A Netflix-style interactive office humor game with 15 cinematic episodes." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════ START SCREEN ═══════════ -->
+  <div id="start-screen" class="screen active">
+    <div class="bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="noise"></div>
+    <div class="vignette"></div>
+    <div class="start-content">
+      <div class="badge">INTERACTIVE SERIES</div>
+      <p class="team-heading">Data and Development Team Meeting</p>
+      <h1 class="main-title">CORPORATE<br/><span class="chaos-word">CHAOS</span></h1>
+      <p class="series-tagline">An Original Interactive Experience</p>
+      <p class="choose-text">— Choose your chaos —</p>
+      <button class="start-btn glow-btn" id="start-btn">
+        <span class="play-icon">▶</span>&nbsp;&nbsp;Start Episode
+      </button>
+      <p class="ep-count-label">15 episodes of relatable corporate pain</p>
+    </div>
+  </div>
+
+  <!-- ═══════════ EPISODE SCREEN ═══════════ -->
+  <div id="episode-screen" class="screen">
+    <div class="bg-orbs" id="ep-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="noise"></div>
+    <div class="vignette"></div>
+
+    <!-- Top HUD -->
+    <div class="hud">
+      <div class="hud-left">
+        <span class="ep-label">EPISODE</span>
+        <span class="ep-num" id="ep-num">01</span>
+        <span class="ep-sep">/</span>
+        <span class="ep-tot">15</span>
+      </div>
+      <div class="hud-center">
+        <span class="chaos-label">CHAOS</span>
+        <div class="chaos-track">
+          <div class="chaos-fill" id="chaos-fill"></div>
+        </div>
+        <span class="chaos-pct" id="chaos-pct">0%</span>
+      </div>
+      <div class="hud-right">
+        <button class="sound-btn" id="sound-btn" title="Sound">🔊</button>
+      </div>
+    </div>
+
+    <!-- Scene Card -->
+    <div class="scene-wrap">
+      <div class="scene-card" id="scene-card">
+        <div class="mood-chip" id="mood-chip">CALM 😌</div>
+        <div class="scenario" id="scenario">Scenario text appears here...</div>
+
+        <!-- Circular timer -->
+        <div class="timer-block">
+          <div class="timer-ring-wrap">
+            <svg viewBox="0 0 110 110" class="timer-svg">
+              <circle class="ring-track" cx="55" cy="55" r="46"/>
+              <circle class="ring-prog" id="ring-prog" cx="55" cy="55" r="46"/>
+            </svg>
+            <div class="timer-digits" id="timer-digits">30</div>
+          </div>
+          <div class="timer-sub">seconds</div>
+        </div>
+
+        <!-- Episode progress strip -->
+        <div class="ep-progress-wrap">
+          <div class="ep-progress-fill" id="ep-progress-fill"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Watching progress bar at bottom -->
+    <div class="watch-bar-wrap">
+      <div class="watch-bar-fill" id="watch-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════ REVEAL SCREEN ═══════════ -->
+  <div id="reveal-screen" class="screen">
+    <div class="bg-orbs reveal-orbs" id="reveal-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="noise"></div>
+    <div class="vignette"></div>
+
+    <div class="reveal-wrap">
+      <div class="reveal-card" id="reveal-card">
+        <div class="reveal-tag">✦ REVEALED ✦</div>
+        <div class="reveal-prefix">The answer was...</div>
+        <h2 class="reveal-answer" id="reveal-answer">Answer here</h2>
+        <div class="meme-line" id="meme-line">Corporate chaos unlocked 🤡</div>
+        <div class="reveal-explanation" id="reveal-explanation">Explanation here.</div>
+        <div class="reveal-btns">
+          <button class="next-ep-btn glow-btn" id="next-btn">
+            Next Episode&nbsp;&nbsp;▶▶
+          </button>
+          <button class="replay-btn" id="replay-btn">↺ Replay</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ END SCREEN ═══════════ -->
+  <div id="end-screen" class="screen">
+    <div class="bg-orbs end-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="noise"></div>
+    <div class="vignette"></div>
+    <div class="end-content">
+      <div class="badge">SEASON COMPLETE</div>
+      <h2 class="end-title">YOU SURVIVED</h2>
+      <p class="end-sub">All 15 episodes of corporate chaos</p>
+      <div class="final-chaos-block">
+        <div class="final-chaos-label">FINAL CHAOS LEVEL</div>
+        <div class="final-chaos-val" id="final-chaos-val">100%</div>
+      </div>
+      <button class="start-btn glow-btn" id="restart-btn">
+        <span class="play-icon">↺</span>&nbsp;&nbsp;Watch Again
+      </button>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
