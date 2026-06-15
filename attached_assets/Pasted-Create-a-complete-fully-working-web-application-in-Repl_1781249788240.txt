@@ -1,0 +1,212 @@
+Create a complete, fully working web application in Replit.
+
+PROJECT NAME:
+“Corporate Chaos: Interactive Episode Game”
+
+STYLE:
+Make this feel like a NETFLIX INTERACTIVE SHOW (similar to Black Mirror Bandersnatch style), but for office humor.
+
+It should feel cinematic, immersive, and story-driven.
+
+---
+
+TECH STACK:
+Use ONLY:
+- HTML
+- CSS
+- Vanilla JavaScript
+(No frameworks, no external libraries unless absolutely necessary)
+
+---
+
+PROJECT STRUCTURE:
+Create 3 files:
+- index.html
+- style.css
+- script.js
+
+---
+
+CORE IDEA:
+The user plays through short “episodes” of corporate office life.
+
+Each episode:
+- shows a realistic office scenario
+- user guesses what it relates to
+- after 30 seconds, a cinematic meme-style reveal happens
+- background mood changes dynamically
+- transitions feel like Netflix scene changes
+
+---
+
+# 1. NETFLIX-STYLE START SCREEN
+
+Design must look like Netflix:
+- dark background
+- large title in cinematic style
+- subtitle like “Choose your chaos”
+- glowing red start button
+- subtle background animation (dark gradient, blur, cinematic feel)
+
+Button:
+👉 “Start Episode”
+
+---
+
+# 2. EPISODE SCREEN (MAIN GAME)
+
+Each “episode” is a corporate scenario shown like a Netflix scene card.
+
+Scenario must be:
+- human office story format
+- relatable workplace situation
+- no technical jargon in story
+
+Examples:
+- missing attachment moment
+- quick question turning into meeting
+- wrong screen share embarrassment
+- email never sent
+- printer magically working when IT arrives
+- “I was about to do it”
+- reply-all storm
+- small task becoming big chaos
+- calendar meeting with no context
+- screenshot instead of file
+
+---
+
+# 3. NETFLIX STYLE UI REQUIREMENTS
+
+- Dark cinematic background
+- Soft blur overlays
+- Center “scene card”
+- Big bold text (like Netflix titles)
+- Subtle glow animation
+- Smooth fade transitions between scenes
+
+---
+
+# 4. TIMER (IMPORTANT)
+
+Each episode has a STRICT 30-second countdown:
+
+- Large cinematic timer display
+- Circular or horizontal progress bar
+- Timer starts immediately when scene appears
+- Subtle suspense animation while timer runs
+
+---
+
+# 5. GUESSING PHASE (INTERACTIVE)
+
+During 30 seconds:
+- No answers shown
+- Users discuss and guess
+
+The UI should feel like:
+“Choose your interpretation…”
+
+---
+
+# 6. REVEAL PHASE (CINEMATIC)
+
+After 30 seconds:
+Trigger a Netflix-style reveal animation:
+
+Show:
+1. Correct answer:
+   (real meaning like “email without attachment”, “scope creep”, “version confusion”, etc.)
+
+2. Meme-style cinematic reaction:
+   Example:
+   - “This is fine 🔥🐶”
+   - “Corporate chaos unlocked 🤡”
+   - “Unexpected production plot twist”
+
+3. Short humorous explanation
+
+Add dramatic transition effect (fade + zoom + glow)
+
+---
+
+# 7. MOOD SYSTEM (VERY IMPORTANT)
+
+Each episode must have a mood:
+
+- CALM 😌
+- NORMAL 🙂
+- CHAOTIC 🔥
+- PANIC 🚨
+- DISASTER 💥
+
+---
+
+# 8. DYNAMIC NETFLIX BACKGROUNDS
+
+Based on mood, change full-screen cinematic background:
+
+- CALM → soft blue cinematic gradient
+- NORMAL → dark neutral Netflix tone
+- CHAOTIC → purple/orange neon glow
+- PANIC → red warning cinematic glow
+- DISASTER → dark red/black intense background
+
+Include smooth transitions like Netflix scene cuts.
+
+---
+
+# 9. EPISODE DATA REQUIREMENTS
+
+Inside script.js create at least 12–15 episodes.
+
+Each episode must include:
+- id
+- title (Netflix-style episode title)
+- scenarioText (human office story)
+- correctAnswer (real-life meaning)
+- memeText
+- explanation
+- mood
+
+---
+
+# 10. UI DETAILS (VERY IMPORTANT)
+
+Make it feel like Netflix:
+
+- Cinematic typography
+- Smooth fade transitions
+- Subtle background motion
+- Glow effects on active scene
+- “Episode-style cards”
+- Minimal but premium UI
+
+---
+
+# 11. BONUS FEATURES (IF POSSIBLE)
+
+- “Next Episode” button like Netflix autoplay
+- Episode counter (Episode 1/15)
+- Sound toggle (cinematic whoosh + reveal sound)
+- “Chaos Meter” increasing across episodes
+- Progress bar like “watching progress”
+
+---
+
+# CRITICAL RULES:
+
+- Must be fully working immediately in Replit
+- No frameworks (React/Vue/etc not allowed)
+- No pseudo-code
+- Clean vanilla HTML/CSS/JS only
+- Must run without errors
+- Keep code simple but cinematic
+
+---
+
+OUTPUT:
+Return full working code for:
+1. index.html
+2. style.css
+3. script.js

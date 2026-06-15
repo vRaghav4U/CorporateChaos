@@ -1,0 +1,140 @@
+1.	
+Riya: “Here is the document you asked for.”
+Manager: “Where is it?”
+Riya: “I brought it.”
+Manager: “Your hands are empty.”
+Riya: “…I knew I forgot something.”
+Correct Answer:
+Sending email without attachment 📧
+________________________________________
+2.	
+Employee: “Sir, here is the electricity bill.”
+Manager: “Why does this say ‘Extra Cheese Burst Pizza’?”
+Employee: “…”
+Manager: “Did the electricity board start selling garlic bread?”
+Employee quickly grabs the paper back.
+Correct Answer:
+Wrong attachment 📂
+________________________________________
+3.	
+Employee: “Please give me back the paper I gave earlier.”
+Manager: “Why?”
+Employee: “That was the wrong one.”
+Manager: “I already started reading it.”
+Employee: “Please pretend you didn’t.”
+Correct Answer:
+Recall and replace 📩
+________________________________________
+4.	
+Employee: “Just one quick question.”
+Second employee: “Actually I also wanted to ask something.”
+Third employee pulls a chair closer.
+Fourth employee starts writing on the whiteboard.
+Manager walks in:
+“Why does this look like a conference now?”
+Correct Answer:
+Scope creep 🧩
+________________________________________
+5.	
+Manager: “Everything going smoothly?”
+Employee: “Absolutely.”
+Employee’s phone suddenly starts vibrating nonstop.
+Manager: “Should I be concerned?”
+Employee: “Depends how much you like surprises.”
+Correct Answer:
+Hidden production issue 🐞
+________________________________________
+6.	
+Employee: “I already gave everyone the report.”
+Person 1: “I didn’t get anything.”
+Person 2: “Same.”
+Person 3: “Nothing here either.”
+Employee slowly opens bag and finds the papers still inside.
+Correct Answer:
+Forgot to send / sharing failure 📩
+________________________________________
+7.	
+Employee: “This will only take five minutes.”
+30 minutes later…
+Another employee arrives with coffee.
+Someone else brings markers.
+Manager: “Why are there now seven people involved?”
+Correct Answer:
+Underestimated complexity 🔥
+________________________________________
+8.	
+Priya places four papers on the table.
+Priya: “This one is final.”
+Manager points to another paper:
+“Then what is this?”
+Priya: “That was final before this final.”
+Manager: “And this third one?”
+Priya: “That became final after the previous final.”
+Correct Answer:
+Version confusion 📁
+________________________________________
+9.	
+Employee: “The printer is completely broken.”
+Another employee presses the same button.
+Printer immediately starts working.
+Employee: “Interesting.”
+Correct Answer:
+Intermittent issue 👻
+________________________________________
+10.	
+Person 1: “Thanks everyone.”
+Person 2: “Thanks!”
+Person 3: “Noted.”
+Person 4: “Received.”
+Person 5: “Thank you all.”
+One employee quietly gets up and closes the office door.
+Correct Answer:
+Reply-all storm 🔔
+________________________________________
+11.	
+Manager: “Any progress?”
+Employee: “Almost done.”
+10 minutes later…
+Manager: “Now?”
+Employee: “Very close.”
+One hour later…
+Employee: “Basically finished.”
+Correct Answer:
+Infinite loading ⏳
+________________________________________
+12.	
+Employee walks toward the manager holding a paper.
+Security guard: “Password?”
+Another person: “Approval?”
+Receptionist: “Verification code?”
+Employee: “I just want to hand over one document.”
+Correct Answer:
+Multi-factor authentication 🔐
+________________________________________
+13.	
+Manager: “Did you check it already?”
+Employee: “Yes.”
+Manager: “Where?”
+Employee: “At my desk.”
+Manager: “Did anyone else check?”
+Employee: “…no.”
+Correct Answer:
+Works on my machine 💻
+________________________________________
+14.	
+Employee: “Quick meeting.”
+Team member: “About what?”
+Employee: “We’ll decide once everyone joins.”
+Team member: “Then why are we meeting first?”
+Correct Answer:
+Unclear requirements 📅
+________________________________________
+15.	
+Employee: “I fixed the problem.”
+Manager: “Great.”
+Employee: “But now the other thing stopped working.”
+Manager: “How?”
+Employee: “Technically… the first problem is fixed.”
+Correct Answer:
+Fix causing another issue 🔥
+
