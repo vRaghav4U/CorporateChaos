@@ -1,15 +1,21 @@
 {
-  "name": "corporate-chaos",
+  "name": "asset-manager-1",
   "version": "1.0.0",
-  "license": "MIT",
-  "private": true,
+  "type": "module",
   "scripts": {
-    "build": "tsc -b",
-    "typecheck": "tsc --build",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.101.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "express": "^5.2.1",
+    "pg": "^8.21.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
-    "prettier": "^3.8.3",
-    "typescript": "~5.9.3"
+    "drizzle-kit": "^0.31.10"
   }
 }
